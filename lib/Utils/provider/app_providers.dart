@@ -4,7 +4,4 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 final employeeProvider =
     StateNotifierProvider<EmployeeVM, List<Employee>>((ref) => EmployeeVM());
-  // static List<SingleChildWidget> providers = [
-  //   ChangeNotifierProvider(create: (_) => SomeChangenotifierClass()),
-  // ];
 
