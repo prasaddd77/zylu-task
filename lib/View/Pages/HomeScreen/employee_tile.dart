@@ -1,9 +1,9 @@
 import 'package:fluttemp/Model/Employee.dart';
 import 'package:fluttemp/Utils/constants/app_colors.dart';
 import 'package:fluttemp/View/shared/app_text.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class EmployeeTile extends StatelessWidget {
   EmployeeTile({super.key, required this.emp});
   Employee emp;
